@@ -1,0 +1,64 @@
+.home{
+    background: rgba(128, 128, 128, 0.373);
+}
+.heading{
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 1px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.sub-title{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+.form-block {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgba(128, 128, 128, 0.51);
+    z-index: 99;
+    background: #fff;
+  }
+  label,
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  input,
+  textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  input:focus,
+  text:focus {
+    outline: none;
+  }
+
+  .border-left {
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  .form-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

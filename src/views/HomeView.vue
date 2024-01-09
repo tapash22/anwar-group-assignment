@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div class="d-flex justify-center px-5  ">
+ <div class="d-block px-5 home">
+  <TimeLIne />
+ </div>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+    import TimeLIne from '@/components/TimeLIne';
+  export default {
+    name: 'Home',
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+    components: {
+      TimeLIne
+    },
   }
-}
 </script>
