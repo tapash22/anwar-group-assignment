@@ -1,12 +1,12 @@
 <template>
-  <v-row align="center" class="px-2 py-2">
+  <v-row align="center" class="px-2 py-1">
     <!-- Image block -->
     <v-col cols="3">
       <v-img
         :src="item.image"
         alt="Image"
         max-width="100"
-        max-height="100"
+        max-height="70"
       ></v-img>
     </v-col>
 

@@ -1,7 +1,10 @@
 <!-- UserForm.vue -->
 <template>
-  <div class="d-block form-block ">
+  <div class="d-flex justify-center form-block ">
     <form @submit.prevent="submitForm" class="py-auto px-5">
+      <p class="d-flex justify-center title py-2">
+        Add Post
+      </p>
       <label for="title">Title:</label>
       <input v-model="newDetail.title" type="text" required />
 
